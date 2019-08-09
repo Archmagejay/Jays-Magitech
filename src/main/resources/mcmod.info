@@ -1,0 +1,14 @@
+[{
+  "modid": "jaysmagitech",
+  "name": "Jay's Magitech",
+  "description": "A mix between a magic and a tech mod",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/Archmagejay/Jays-Magitech",
+  "updateUrl": "",
+  "authorList": ["Archmagejay"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}]
