@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "particle": "jaysmagitech:block/testblock_face0",
+    "particle": "jaysmagitech:blocks/testblock_face0",
     "down": "jaysmagitech:blocks/testblock_face0",
     "up": "jaysmagitech:blocks/testblock_face1",
-    "east": "jaysmagitech:block/testblock_face2",
-    "west": "jaysmagitech:block/testblock_face3",
-    "north": "jaysmagitech:block/testblock_face4",
-    "south": "jaysmagitech:block/testblock_face5"
+    "east": "jaysmagitech:blocks/testblock_face2",
+    "west": "jaysmagitech:blocks/testblock_face3",
+    "north": "jaysmagitech:blocks/testblock_face4",
+    "south": "jaysmagitech:blocks/testblock_face5"
   }
 }

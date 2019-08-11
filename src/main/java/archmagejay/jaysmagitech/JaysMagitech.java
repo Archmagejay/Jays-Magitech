@@ -7,14 +7,16 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = JaysMagitech.MODID, name = JaysMagitech.NAME, version = JaysMagitech.VERSION)
+@Mod(modid = JaysMagitech.MODID, name = JaysMagitech.NAME, version = JaysMagitech.VERSION, useMetadata = true)
 public class JaysMagitech
 {
     public static final String MODID = "jaysmagitech";
+    @SuppressWarnings("WeakerAccess")
     public static final String NAME = "Jays Magitech";
+    @SuppressWarnings("WeakerAccess")
     public static final String VERSION = "1.0";
 
-    private static Logger logger;
+    static Logger logger;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
@@ -25,6 +27,6 @@ public class JaysMagitech
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
-        logger.info("Registry for Test block is: {}", ModBlocks.TESTBLOCK.getRegistryName());
+        logger.info("Registry for Pedestal is: {}", ModBlocks.PEDESTAL.getRegistryName());
     }
 }

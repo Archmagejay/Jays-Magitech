@@ -1,0 +1,19 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "#None": "jaysmagitech:blocks/pedestal",
+      "#Arms": "jaysmagitech:blocks/pedestal_arms"
+    },
+    "custom": {
+      "flip-v": true
+    }
+  },
+  "variants": {
+    "is_handles": {
+      "true": {"model": "jaysmagitech:pedestal.obj"},
+      "false": {"model": "jaysmagitech:pedestal_arms.obj"}
+    },
+    "inventory": {"model": "jaysmagitech:pedestal.obj"}
+  }
+}

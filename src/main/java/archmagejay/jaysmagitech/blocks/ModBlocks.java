@@ -8,8 +8,12 @@ public class ModBlocks {
     @GameRegistry.ObjectHolder("jaysmagitech:testblock")
     public static TestBlock TESTBLOCK;
 
+    @GameRegistry.ObjectHolder("jaysmagitech:pedestal")
+    public static PedestalBlock PEDESTAL;
+
     @SideOnly(Side.CLIENT)
     public static void initModels(){
         TESTBLOCK.initModel();
+        PEDESTAL.initModel();
     }
 }
